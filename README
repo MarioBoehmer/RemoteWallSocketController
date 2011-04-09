@@ -1,0 +1,6 @@
+This example provides code to control an optocoupler circuit. The example is built upon a remote wall socket controller. You can control the remote wall aocket with an android device by sending bytes to a console application on your desktop via sockets. The desktop application sends serial data to the hooked up Arduino by using the RXTX library for serial communication.
+
+Make sure to include the RXTX library in your Java installation and follow the installation guide on their project page:
+http://rxtx.qbang.org/
+
+For details about the project please check out: http://marioboehmer.blogspot.com/
